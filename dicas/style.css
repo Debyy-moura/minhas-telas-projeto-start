@@ -1,0 +1,200 @@
+*{
+        margin: 0;
+        padding: 0; 
+}
+    
+body{   
+ background-color: rgba(67, 62, 71, 1);
+
+}
+header{
+  
+    background-image: url("img/Capa.png");
+    height: 980px;
+
+}
+
+.box5{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+
+.box6{
+    margin-right: 4rem;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.saida{
+    width: 250px;
+    text-align: center; 
+    margin-left: -40px;
+}
+
+.logo{
+    width: 300px; 
+    height: 270px;
+    margin-left: -80px;
+}
+
+h1{
+    height: 200px; 
+    color: #ffff;
+    margin-left: -15px;
+    text-shadow: 5px 5px 0px #6100C0;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 50px;
+
+}
+.perfil{
+    width: 50%; 
+    height: auto;
+    text-align: center;
+    border-radius: 85px;
+}
+.rolagem{
+ 
+    position: relative;
+    width: 35px;
+
+  
+}
+
+.seta {
+
+    white-space: nowrap;
+    position: absolute; 
+    top: 200%;
+    border-width: 100px 100px 100px 100;
+    width: 0px;
+    height: 0px; 
+    background-color: transparent;
+    color: #fff;
+    font-size: 40px;
+    border: none; 
+    cursor: pointer;
+}
+.seta.direita { 
+ 
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-left: 25px solid black;
+}
+
+.seta.esquerda { 
+ 
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+   
+}
+
+.dica1{
+    display: flex;
+     gap: 70px;
+    
+}
+
+.dica{
+    width: 200px;
+    height: 53px;
+   
+}
+
+.imgdica{
+    width: 220x;
+    height: 250px;
+    text-align: center;
+    border-radius: 15px;  
+    background: #6100C0;
+    color: black;
+    text-align: center;
+    border-radius: 20px;  
+    transition: transform 0.2s;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-left: 25px solid black;
+}
+
+.imgdica:hover{
+    transform: scale(1.1);
+    background-image: linear-gradient(45deg, #0000, #040408);
+}
+
+footer {
+    background-color: #000000;
+    padding: 0px;
+    width: 100%;
+   height: 30%;
+}
+  
+.logoeemail{
+      display: flex;
+      justify-content: center;
+      
+  
+}
+  
+.logo2{
+      width: 230px;
+      height: 100;
+      margin-left: -450px;
+}
+  
+.email{
+      width: 225px;
+      height: 25;
+      align-self: end;
+      margin-left: -180px;
+      transform: translateY(-40px);
+}
+  
+.redesetermo{
+      display: flex;
+      justify-content: center;
+     
+}
+  
+.sociais{
+      width: 55px;
+      transform: translateY(-140px);
+      right: 25%;
+      position: relative;
+      left: 190px;
+}
+  
+.termos{
+      width: 225px;
+      height: 25;
+      align-self: end;
+      margin-right: -200px;
+      transform: translateY(-85px);
+}
+  
+.fim{
+      display: flex;
+      justify-content: flex-end;
+} 
+  
+.cript{
+      position: relative;
+      left: -40%;
+}
+  
